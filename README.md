@@ -6,10 +6,10 @@
 
 const database = require("easy-database.js")
 const db = new database({
-  name:"test",
+  name:"test", //названня файла в якому буде зберігатися значення
 })
 
-db.set("key", trur) // встановлюемо значення ключа
+db.set("key", true) // встановлюемо значення ключа
 
-console.log(db.get("name"))
+console.log(db.get("name")) //Поверне true
 
