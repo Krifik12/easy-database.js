@@ -19,7 +19,7 @@ db.set("key", true) // встановлюемо значення
 console.log(db.get("key")) //Поверне true
 ```
 
-# Функії
+# Функції
 ```javascript
 set(key, value) - встановити значення
 
