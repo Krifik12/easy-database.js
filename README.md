@@ -16,7 +16,7 @@ const db = new database({
 
 db.set("key", true) // встановлюемо значення
 
-console.log(db.get("name")) //Поверне true
+console.log(db.get("key")) //Поверне true
 ```
 
 # Функії
