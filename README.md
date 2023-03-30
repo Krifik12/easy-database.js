@@ -40,7 +40,7 @@ db.set("key", true) // встановлюемо значення true
 
 db.reset("key") // Робимо обнулення
 
-console.log(db.get("name")) //Поверне undefined
+console.log(db.get("key")) //Поверне undefined
 ```
 
 # Інше 
