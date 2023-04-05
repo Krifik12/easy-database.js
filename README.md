@@ -48,6 +48,37 @@ db.reset("key") // Робимо обнулення
 console.log(db.get("key")) //Поверне undefined
 ```
 
+# Приклад Використання addition
+
+```javascript
+const database = require("easy-database.js")
+const db = new database({
+  name:"test", 
+})
+//названня файла в якому буде зберігатися значення
+
+db.set("key", 8) //Встановлюєио значення 8
+
+db.addition("key", 6) // Додаємо 6
+
+console.log(db.get("key")) // Поверне 14
+```
+
+# Приклад Використання subtraction
+```javascript
+const database = require("easy-database.js")
+const db = new database({
+  name:"test",
+})
+//названня файла в якому буде зберігатися значення
+
+db.set("key", 8) //Встановлюєио значення 8
+
+db.subtraction("key", 6) // Віднімаємо 6
+
+console.log(db.get("key")) // Поверне 2
+```
+
 # Помилки
 <div style="color:red;">
 easy-database.js error 
