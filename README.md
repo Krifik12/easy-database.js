@@ -1,4 +1,5 @@
 # easy-database.js
+- Версія 1.1.0
 - npm install easy-database.js
 - Документація для пакета easy-database.js
 - Розробник Krifik
@@ -42,6 +43,9 @@ db.reset("key") // Робимо обнулення
 
 console.log(db.get("key")) //Поверне undefined
 ```
+
+# Помилки
+
 
 # Інше 
 - Ця бібліотека дуже легка в використанні тому можуть бути недоліки
