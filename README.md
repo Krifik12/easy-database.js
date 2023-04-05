@@ -28,6 +28,10 @@ get(key) - отримати значення
 
 reset(key) - обнулити
 
+addition(key, value) - додавання
+
+subtraction(key, value) - віднімання
+
 ```
 # Приклад Використання reset
 ```javascript
@@ -45,7 +49,10 @@ console.log(db.get("key")) //Поверне undefined
 ```
 
 # Помилки
-
+<div style="color:red;">
+easy-database.js error 
+<br>
+typeof must be number</div> - Тип даних має бути числом рішення змінити value на число
 
 # Інше 
 - Ця бібліотека дуже легка в використанні тому можуть бути недоліки
