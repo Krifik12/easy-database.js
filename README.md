@@ -1,5 +1,5 @@
 # easy-database.js
-- Версія 1.1.0
+- Версія 1.1.1
 - npm install easy-database.js
 - Документація для пакета easy-database.js
 - Розробник Krifik
